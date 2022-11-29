@@ -29,7 +29,7 @@ window.onresize = () => {
 
 onMounted(async () => {
   try {
-    characters.value = await (await fetch("/characters.json")).json();
+    characters.value = await (await fetch(`${import.meta.env.VITE_BASE_PATH}/characters.json`)).json();
   } catch (error) {
     console.log(error);
   }
