@@ -2,6 +2,7 @@
   "name": "genshin-handbook",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://KnorienChang.github.io/genshin-handbook",
   "type": "module",
   "scripts": {
     "dev": "vite",
