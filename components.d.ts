@@ -10,5 +10,6 @@ declare module '@vue/runtime-core' {
     NDescriptions: typeof import('naive-ui')['NDescriptions']
     NDescriptionsItem: typeof import('naive-ui')['NDescriptionsItem']
     NImage: typeof import('naive-ui')['NImage']
+    NSpin: typeof import('naive-ui')['NSpin']
   }
 }

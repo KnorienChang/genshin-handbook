@@ -26,6 +26,3 @@ dist-ssr
 # 其他
 *-lock.json
 *.lock
-
-src/assets
-src/utils
